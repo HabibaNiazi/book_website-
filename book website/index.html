@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReadBud</title>
+  <!-- css link-->
+  <link rel="stylesheet" href="style.css"/>
+  <!-- boxicons link -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+  <!-- remixicon link-->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">ReadBud</a>
+    <ul class="navlist">
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="What do you want to read?">
+        <button id="search">Search</button>
+    </div>
+    
+      <li><a href="#">home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Basket <img src="images/shopping-cart (1).png" alt="" width="15vh" style="filter: grayscale(100%) invert(100%);transition:filter 0.5s ease;"></a></li>
+    </ul>
+  </header>
+<!-- banner start -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>The Psychology Of Money</h1>
+    <h5>Morgan Housel</h5>
+    <button id="type" >Study guide</button>    
+    <p>The Psychology of Money by Morgan Housel <br>
+       explores the complex relationship between money and human behavior in an accessible way. It offers insights into how we perceive and manage our finances, and the impact of emotions on our financial decisions.</p>
+       <div class="rating">
+        <span class="star" onclick="rate(1)">&#9733;</span>
+        <span class="star" onclick="rate(2)">&#9733;</span>
+        <span class="star" onclick="rate(3)">&#9733;</span>
+        <span class="star" onclick="rate(4)">&#9733;</span>
+        <span class="star" onclick="rate(5)">&#9733;</span>
+      </div> 
+    <a href="index.html"><button class="price">E-Book <br> <p>5.99 $</p></button></a>
+    <a href="index.html"><button class="price">paperback<br> <p>15.99 $</p></button></a>
+  </div>
+  <div class="hero-img">
+    <a href=""><img src="images/morgan-housel-aZ_MmSmAcjg-unsplash-removebg-preview.png" alt="" id="img"></a>
+  </div>
+</section>
+<!-- banner end -->
+<!-- you may like  -->
+<div class="likes-container">
+  <h1>You may like</h1>
+<a href=""><div id="like-box">
+  <div class="div">
+    <img src="images/the last first date.jpg" alt="" class="div-img">
+    <h4 style=" color:#392D6F;">The Last First Date</h4>
+    <h5>Rs:900.00</h5>
+    <button class="button">ADD TO CART</button>
+  </div>
+  <div class="div">
+    <img src="images/The Scarlet Veil.jpg" alt="" class="div-img">
+    <h4 style=" color:#392D6F;">The Scarlet Veil</h4>
+    <h5>Rs:800.00</h5>
+    <button class="button">ADD TO CART</button>
+  </div>
+  <div class="div">
+    <img src="images/Need Me - A Broke And Beautiful Novel.jpg" alt="" class="div-img">
+    <h4 style=" color:#392D6F;">Need Me - </h4>
+    <h5>Rs:800.00</h5>
+    <button class="button">ADD TO CART</button>
+  </div>
+  <div class="div">
+    <img src="images/love her or lose her.jpg" alt="" class="div-img">
+    <h4 style=" color:#392D6F;">Love Her Or Lose Her</h4>
+    <h5>Rs:1,000.00</h5>
+    <button class="button">ADD TO CART</button>
+  </div>
+</div></a>
+</div>
+<!-- end of you may like -->
+<!-- category -->
+<!-- Categories -->
+<div class="categories-container">
+  <h1>Explore Categories</h1>
+  <a href=""><div class="category-box">
+  <div class="category">
+    <img src="images/The Lunar Chronicles Winter 2 category.jpg" alt="" class="category-img">
+    <h4 style="color:#392D6F;">Fiction</h4>
+    <button class="button">EXPLORE</button>
+  </div>
+  <div class="category">
+    <img src="images/Come Back To Afghanistan 3.jpg" alt="" class="category-img">
+    <h4 style="color:#392D6F;">Non-Fiction</h4>
+    <button class="button">EXPLORE</button>
+  </div>
+  <div class="category">
+    <img src="images/the girl with dragon tatto.jpg" alt="" class="category-img">
+    <h4 style="color:#392D6F;">Mystery/Thriller</h4>
+    <button class="button">EXPLORE</button>
+  </div>
+  <div class="category">
+    <img src="images/red white and royal blue.jpeg" alt="" class="category-img">
+    <h4 style="color:#392D6F;">Romance</h4>
+    <button class="button">EXPLORE</button>
+  </div>
+</div></a>
+</div>
+<!-- End of Categories -->
+<!-- Categories -->
+<div class="categories-container">
+  <h1>Children's Books</h1>
+  <a href="children.html"><div id="like-box">
+    <div class="div">
+      <img src="images/The Snow Puppy And Other Christmas Stories.jpg" alt="" class="div-img">
+      <h4 style=" color:#392D6F;">The Last First Date</h4>
+      <h5>Rs:900.00</h5>
+      <button class="button">ADD TO CART</button>
+    </div>
+    <div class="div">
+      <img src="images/My Encyclopedia Of Very Important Adventures.jpg" alt="" class="div-img">
+      <h4 style=" color:#392D6F;">The Scarlet Veil</h4>
+      <h5>Rs:800.00</h5>
+      <button class="button">ADD TO CART</button>
+    </div>
+    <div class="div">
+      <img src="images/First Term.jpg" alt="" class="div-img">
+      <h4 style=" color:#392D6F;">Need Me - </h4>
+      <h5>Rs:800.00</h5>
+      <button class="button">ADD TO CART</button>
+    </div>
+    <div class="div">
+      <img src="images/The Eyes And The Impossible.jpg" alt="" class="div-img">
+      <h4 style=" color:#392D6F;">Need Me - </h4>
+      <h5>Rs:800.00</h5>
+      <button class="button">ADD TO CART</button>
+    </div>
+  </div></a>
+</div>
+<!-- End of Categories -->
+<!-- footer -->
+
+<!-- end footer -->
+</body>
+</html>

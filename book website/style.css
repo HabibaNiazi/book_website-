@@ -1,0 +1,227 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(245.59deg, #BDBEF4 0%, #F4D8CD 28.53%, #FECDAD 75.52%);
+}
+header{
+    right: 0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 9%;
+    background: transparent;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color:white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;;
+}
+section{
+    padding:0 10%;
+}
+.hero-text h5{
+    font-size: 14px;
+    font-weight: 500;
+    color:#392D6F;
+    margin-bottom: 10px;
+}
+.hero-text h1{
+    font-size: 30px;
+    line-height: 1;
+    color:#392D6F;
+    margin: 0 0 20px;
+}
+.hero-text p{
+    line-height: 1;
+    color:#392D6F;
+    margin: 0 0 20px;
+}
+#type{
+    background-color:white;
+    border: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.rating {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .star {
+    color: gray;
+  }
+  .star.clicked {
+    color: gold;
+  }
+.price{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: all .55s ease;
+    text-transform:uppercase;
+
+}
+.price:hover{
+    transform: translate(8px);
+    background: linear-gradient(245.59deg, #BDBEF4 0%, #F4D8CD 28.53%, #FECDAD 75.52%);
+}
+.price p{
+    color: red;
+
+}
+  .search-container {
+    display: flex;
+    width: 400px;
+    border-radius: 25px;
+    overflow: hidden;
+    height:35px;
+}
+
+#searchInput {
+    flex: 1;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
+
+#search{
+    background: linear-gradient(245.59deg, #BDBEF4 0%, #F4D8CD 28.53%, #FECDAD 75.52%);
+
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+}
+#img{
+    transition: all .55s ease;
+    text-transform:uppercase;
+}
+#img:hover{
+    transform: translate(8px);
+}
+.likes-container h1{
+    color:#392D6F;
+    padding:0 10%;
+}
+.div{
+    width:200px;
+    height:300px ;
+    display: inline-block;
+    margin: 30px;
+    text-align: center ;
+    padding:0px ;
+    border-radius: 5px;
+    background-color:white;
+    max-width: 100%;
+    height: auto;
+}
+
+.div-img{
+    transition: all .55s ease;
+    text-transform:uppercase;
+    height: 100%;
+    width: 100%;
+    
+}
+#like-box{
+    background-color: white;
+    margin: 20px;
+    padding-left: 30px;
+    border-radius: 100px;
+    max-width: 100%;
+    overflow: hidden;
+    
+
+}
+.button{
+    border-radius: 5px;
+    background-color: #FF6347;
+    border: none;
+    padding: 10px;
+}
+
+
+.categories-container h1 {
+    color: #392D6F;
+    padding: 0 10%;
+}
+
+.category {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.category-img {
+    transition: all .55s ease;
+    height: 100%;
+    width: 100%;
+}
+
+.category-box {
+    background-color: white;
+    margin: 20px;
+    padding-left: 30px;
+    border-radius: 100px;
+    max-width: 100%; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.categories-container .button {
+    border-radius: 5px;
+    background-color: #FF6347; /* Adjust color as needed */
+    border: none;
+    padding: 10px;
+    color: white;
+}
